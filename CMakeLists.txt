@@ -45,6 +45,7 @@ if(WIN32 AND BUILD_SHARED_LIBS)
 endif()
 
 add_library(${PROJECT_NAME} ${SOURCES})
+add_library(${PROJECT_NAME}::${PROJECT_NAME} ALIAS ${PROJECT_NAME})
 
 if(NOT BUILD_SHARED_LIBS)
     target_compile_definitions(${PROJECT_NAME} PUBLIC
