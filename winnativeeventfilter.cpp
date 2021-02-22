@@ -791,7 +791,7 @@ void updateFrameMargins(const QWindow *window, bool reset)
 
 // The standard values of border width, border height and title bar height
 // when DPI is 96.
-const int m_defaultBorderWidth = 8, m_defaultBorderHeight = 8, m_defaultTitleBarHeight = 31;
+const int m_defaultBorderWidth = 8, m_defaultBorderHeight = 8, m_defaultTitleBarHeight = 30;
 
 // The thickness of an auto-hide taskbar in pixels.
 const int kAutoHideTaskbarThicknessPx = 2;
